@@ -1,0 +1,40 @@
+[STATIC_LIBRARY]
+
+[VERSION]
+0.25.0
+
+[RELEASE_DATE]
+2025-10-08
+
+[PRODUCT_NAME]
+openjph
+
+[COMPANY_NAME]
+Aous Naman
+
+[URL]
+https://github.com/aous72/OpenJPH
+
+[COPYRIGHT]
+Copyright (c) Aous Naman 
+
+[LICENSE_FILE]
+LICENSE
+
+[LICENSE_IDENTIFIER]
+BSD-2-Clause
+
+[INCLUDES]
+src\core\common
+
+[INCLUDE_ARTIFACTS]
+src\core\common -> openjph
+
+[EXCLUDES]
+src\apps\
+src\core\codestream\ojph_codestream_wasm.cpp
+src\core\coding\ojph_block_decoder_wasm.cpp
+src\core\transform\ojph_colour_wasm.cpp
+src\core\transform\ojph_transform_wasm.cpp
+subprojects\
+tests\

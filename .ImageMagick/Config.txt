@@ -1,10 +1,10 @@
 [STATIC_LIBRARY]
 
 [VERSION]
-0.25.3
+0.26.0
 
 [RELEASE_DATE]
-2025-11-16
+2025-12-24
 
 [PRODUCT_NAME]
 openjph
@@ -25,10 +25,10 @@ LICENSE
 BSD-2-Clause
 
 [INCLUDES]
-src\core\common
+src\core\openjph
 
 [INCLUDE_ARTIFACTS]
-src\core\common -> openjph
+src\core\openjph -> openjph
 
 [EXCLUDES]
 src\apps\

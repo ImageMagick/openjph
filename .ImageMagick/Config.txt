@@ -33,9 +33,13 @@ src\core\openjph -> openjph
 [EXCLUDES]
 fuzzing\
 src\apps\
+src\core\codestream\ojph_codestream_vsx.cpp
 src\core\codestream\ojph_codestream_wasm.cpp
+src\core\coding\ojph_block_decoder_vsx.cpp
 src\core\coding\ojph_block_decoder_wasm.cpp
+src\core\transform\ojph_colour_vsx.cpp
 src\core\transform\ojph_colour_wasm.cpp
+src\core\transform\ojph_transform_vsx.cpp
 src\core\transform\ojph_transform_wasm.cpp
 subprojects\
 tests\
